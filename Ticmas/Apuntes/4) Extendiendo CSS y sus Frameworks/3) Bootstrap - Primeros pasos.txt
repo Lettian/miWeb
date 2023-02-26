@@ -1,0 +1,64 @@
+Biblioteca multiplataforma con conjunto de herramientas de codigo abierto
+para diseño de sitios y aplicaciones web.
+
+Contiene plantillas de diseño con tipografia, formularios,
+botones, cuadros, menus de navegacion y otros elementos de diseño.
+
+Está basado en HTML y CSS así como extensiones de JavaScript adicionales.
+A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end.
+
+cheatsheet ( Hoja tramposa)-
+
+===========================================================================
+
+Breakpoints: 
+	son anchos customizables para determinar como se ve el layout de tu página
+		a lo largo de varios dispositivos (todos) en boostrap.
+
+*Al aprender un framework buscar la versión actual del mismo.
+
+===========================================================================
+
+Core concepts ( Conceptos clave )
+
+Concepto claves:
+	bootstrap trabaja con clases predefinidas.
+
+Ejemplo, 
+
+breakpoint	Class predefinida	Dimensiones 
+		
+medium		md			>=768px
+
+===========================================================================
+
+Contenedores (Grillas con cierta cantidad de columnas)
+
+Se trabajan hasta en 12 columnas
+
+===========================================================================
+
+Grillas
+
+Trabaja con filas y columnas
+
+===========================================================================
+
+¿Para qué sirven los breakpoints en CSS?
+
+Para definir los píxeles en los cuales la 
+pantalla debe cambiar el layout según el dispositivo.
+
+===========================================================================
+
+¿Qué propiedades se deben aplicar para que
+ las imágenes no se deformen
+ cuando trabajamos en responsive?
+
+max-width: 100%; height: auto; 
+
+===========================================================================
+
+
+
+

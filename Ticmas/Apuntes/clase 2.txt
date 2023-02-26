@@ -1,0 +1,60 @@
+INCLUIR IMAGENES EN NUESTRO "HTML" - CONSOLA DESARROLADOR CHROME
+
+============================================================================
+
+* ELEMENTO IMG * : Imagen
+- Concepto atributo: Informacion complementaria que se le da a un elemento para poder completarlo.
+		Y mostrarse en el navegador.
+- Sintaxis: 
+	<img src="hola.jpg" alt="¡Hola!">
+	- img: Nombre de etiqueta 
+	- src (source: ruta de la imagen ) : Atributo
+	- alt: texto alternativo si la imagen no se carga con éxito
+	- "hola.jpg": Valor
+
+El elemento imagen se cierra así mismo.
+============================================================================
+Sintaxis del elemento <p>
+	<p>	         Esto es un parrafo, hola mundo!       <p>
+Etiqueta de apertura                                Contenido 		Etiqueta de cierre
+============================================================================
+
+Elemento imagen:
+
+img y el compilador ayuda a realizar la linea de codigo
+
+Source: Que corresponde a la ruta, puede ingresarse la ruta del link para acceder a la imagen, o en su defecto la ruta donde se guardo la misma.
+Alt: Texto alternativa si no lo encuentra
+
+No manejamos diseño con CSS todavía
+
+Pero podemos forzar dimensiones de la imagen con heigth: altura y width: anchura
+============================================================================
+
+Dentro del elemento IMG ( imagen )
+
+<img src="C:\Users\Prueba\Downloads\que mira bobo.jpg" alt="Meme messi, que miras bobo">
+
+modificamos dimension
+
+<img src="C:\Users\Prueba\Downloads\que mira bobo.jpg" alt="Meme messi, que miras bobo"
+height= "500px" width= "700px"\>
+
+============================================================================
+
+-Elemento "ul" es una lista
+
+-Elemento "Span"
+	Mala practica, ya que el diseño va en CCS
+
++Sintaxis:
+	<p>Billie tiene <span style="color: brown;">brown</span> eyes.</p>
+============================================================================
+"Inspeccionar abre la ventana de desarrollador del chrome"
+
+Entorno para editar en tiempo real el html cuando lleguemos a CSS en la parte de style y la parte de "Console"
+
+Los cambios no quedan persistidos, al actualizarse la pagina vuelve a su estado original.
+
+Permite ver los cambios en tiempo real, y si es a gusto del desarrollador, realizar el cambio en el código
+	para que quede guardado.

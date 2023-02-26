@@ -1,0 +1,23 @@
+************ Para conseguir librerias para los media queries ************
+
+https://getbootstrap.com/ 
+https://get.foundation/
+https://tailwindcss.com/
+
+************ Listado de los diferentes elementos que vienen dadas por los 
+				Diferentes frameworks			
+
+https://getbootstrap.com/docs/5.0/examples/cheatsheet/
+
+************ Página oficial de GIT ************
+
+git-scm.com
+
+Circuito para versionar:
+ 
+	Workspace - Indice - Repositorio Local
+
+https://ndpsoftware.com/git-cheatsheet.html#loc=index;
+
+
+

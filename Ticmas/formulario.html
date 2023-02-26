@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required="required" name="Nombre" placeholder="Ingrese su nombre">
+
+        <label>Apellido</label>
+        <input type="text" name="Apellido" placeholder="Ingrese su apellido">
+        
+        <label>Fecha de nacimiento</label>
+        <input type="date" max="now" name="Fecha de nacimiento" placeholder="Fecha de nacimiento">
+
+        <label>Mail</label>
+        <input type="email" name="E-mail" placeholder="e-mail">
+
+        <label>Telefono(11-1234-1234)</label>
+        <input 
+            type="tel"
+            name="Telefono" 
+            pattern="[0-9]{2}"
+            maxlength="2"
+            placeholder="Telefono"
+            size="2"
+            >
+        
+        <input
+            type="tel"
+            name="Telefono2" 
+            pattern="[0-9]{4}"
+            maxlength="4"
+            placeholder="Telefono"
+            size="4"
+        >
+        <input
+            type="tel"
+            name="Telefono3" 
+            pattern="[0-9]{4}"
+            placeholder="Telefono"
+            size="4"
+        >
+
+        <label>Usuario</label>
+        
+        <input
+            type="text"
+            name="Usuario"
+            required
+            size="10"
+            pattern="[a-z]{4,8}"
+            placeholder="Usuario"
+        />      
+        
+        <label>Contraseña</label>
+        <input type="password" minlength="4" maxlength="10" required name="Contaseña" placeholder="Contraseña">
+        
+        <p>Te subscribes?</p>
+        <div>
+            <input type="radio" name="subcripcion" id="sub" >
+            <label for="subcripcionSI">SI </label>
+        </div>
+        <div>
+            <input type="radio" name="subcripcionNo" id="noSub" >
+            <label for="subcripcionNO">NO </label>
+        </div>
+        <input type="submit" value="Enviar">
+
+        <p>¿Como querés que te llegueel resumen de la cuenta?</p>
+        <div>
+            <input type="checkbox" name="cuenta" id="mail" value="mail" checked>
+            <label for="mail">Por e-mail</label>
+        </div>
+        <div>
+            <input type="checkbox" name="cuenta" id="correo" value="correo">
+            <label for="correo">Por corre postal</label>
+        </div>
+
+    </form>
+</body>
+</html>

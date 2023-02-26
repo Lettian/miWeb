@@ -1,0 +1,135 @@
+Selectores y tipografias: Atributo ID - Atributo CLASS
+===========================================================
+
+En la hoja de estilos:
+
+*{
+	Se lo aplica a todos los elementos
+}
+
+Efecto cascada:
+	Aplica la implementacion de la funcion a todo.
+	Si hay otra funcion debajo, predomina su implementacion por encima del de arriba.
+
+===========================================================
+
+Desde CSS se pueden compartir propiedades entre los mismos elementos.
+
+Podemos separar entre comas cada elemento,
+ y su implementacion se aplicará en todas ellas.
+
+Osea compartir propiedades entre los distintos elementos.
+
+
+ej:
+p, span{
+	color: red;
+	width: 300px;
+}
+
+===========================================================
+
+Pulimos mejor los selectores si por ejemplo tenemos 6 elementos p, pero queremos que 
+ un único p sea distinto de los demas.
+
+Para eso nace el elemento ID.
+
+Atributo ID:
+--------------------------
+Ej:
+<p id="">Hola mundo</p>
+--------------------------
+
+En un html, no pueden haber 2 elementos con el mismo ID.
+
+Selector de un ID:
+	#para1{
+		text-align: center;
+		color: red;
+	}
+
+<p id="paraq>Hola mundo!</n>
+--------------------------
+
+Le damos un identificador uniquivoco a un elemento,
+ y le damos la implementacion en css.
+EJ: 
+	<p id="mi_parafo>Hola mundo!</n>
+
+Y en CSS:
+	#mi_parrafo{
+		color: yellow;
+	}
+
+Usando # y aplicandole el nombre ( ID ) a determinado y único elemento.
+
+===========================================================
+
+Como tmbn, en una misma página, puede haber varios h1
+
+por lo cual debemos usar un ID para ellos.
+
+===========================================================
+En caso que querramos utilizar algo, e implementarlo en muchos elementos 
+	nace el concepto de ** CLASES **
+
+Sintaxis:
+	.nombre{
+		implementacion.
+	}
+
+===========================================================
+
+Arbol de navegacion HTML - >DOM : Document Object Model
+Tmbn para .CSS
+
+==========================================================================
+
+***************    TIPOGRAFIAS    *************************
+
+Impacto en la experiencia de lectura a nuestros visitantes.
+
+Tipografia predefinida:
+	Ejemplo: times new roman 240px ( Tipografia x default )
+
+
+Importar tipografias:
+	Importar dentro del head en elemento *LINK*
+	Importar dentro del .css la propiedad font-family
+
+	Dentro de la funcion:
+		font-family: 	
+
+==========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

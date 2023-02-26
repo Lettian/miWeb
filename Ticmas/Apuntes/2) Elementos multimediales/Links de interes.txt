@@ -1,0 +1,5 @@
+caniuse.com // Para ver el soporte de los distintos navegadores con los elementos videos.
+
+https://www.w3schools.com/html/html5_video.asp // Elemento video tag
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video // 

@@ -1,0 +1,63 @@
+Modelo de caja // 
+Como considerar a todos los elementos dentro de CSS.
+
+Todos los elementos de HTML pueden considerarse como "cajas".
+
+Cada seccion pueden considerar una caja:
+	Una barra de direccion es una caja.
+	Barra lateral, otra caja.
+	Etc.
+Todas tienen en comun una serie de propiedades: 
+	Margin - Border - Padding - Content
+	Margen - Borde - Padding - Contenido
+
+=======================================================
+
+Content - Contenido de la caja, sea un texto o imagen a aparecer.
+
+Padding - Una seccion transparente limpia el área alrededor del contenido y el área imaginaria hasta el borde.
+	Este borde encapsula al contenido.
+
+Border - Que rodea el contenido.
+
+Margin - El margen/borde fuera del contenido.
+
+=======================================================
+
+Se puede aplicar un margen de cada uno de los lados.
+
+Puede hacerse individualmente: margin-top 40px// margin-bottom 20px// margin-left 10px// margin-right 10px;
+
+O en una mimsma linea: padding: 30px 15px 25px 20px;
+/**
+	Arriba - Derecha - Abajo - izquierda (Sentido de las agujas del reloj).
+*/
+=======================================================
+
+Un titulo o parrafo la tratamos como una única caja que posee dentro un conjunto de cajas
+Estás son desde las más dentro hacia afuera:
+
+Content: El contenido de la caja principal, sea un texto o imagen 
+Padding: Es un margen transparente/imaginaria que rodea al contenido y desplazar a éste del:
+Border: Es un borde que lo podemos generar con cualquier fuente o no tener un misma y separa el contenido del:
+Margin: Un margen para separar la caja principal de otras cajas principales.
+
+=======================================================
+<body>
+
+	<section>
+		<h1></h2>
+		<p>Parrafo</p>
+		<ul>
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+		</ul>
+	</section>
+</body>
+=======================================================
+
+Trabajar con cajas dntro de cajas.
+
+Aplicar propiedades y espacios de cada una.
+

@@ -1,0 +1,29 @@
+p{
+    color:red;
+    width: 300px;
+}
+
+h1{
+    border: 1px solid lightseagreen;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10PX;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+
+    color: green
+
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }

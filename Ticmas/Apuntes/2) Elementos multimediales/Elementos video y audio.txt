@@ -1,0 +1,55 @@
+width="320" height="240" Igual a imagenes ( Dimensiones )
+
+Ver siempre los atributos de video que podemos usar para saber que
+podemos hacer y usar.
+
+Elemento Video
+Atributos:
+	autoplay -> Para que se reproduzca el video automaticamente al ingresar.
+			Algunos navegadores el autoplay no funciona o tiene el sonido deshabilitado.
+
+	controls -> Que el usuario pueda manipular el video, tanto el sonido, descarga, velocidad
+			Pantalla completa...etc.
+
+	+atributos buscar en los links de interés.
+
+Respetar la usabilidad del mismo
+
+============================================================
+
+source: mp4 // webM (video/webm) // ogg (web/ogg)
+
+Si el navegador no es complatible con algun formato, usara el otro.
+
+============================================================
+
+Poner siempre leyendas que aclaren algun error de incompatibilidad, aunque
+sean obviedades.
+
+************************************************************************************
+
+ELEMENTO AUDIO E INSERTAR UN VIDEO DE YT
+
+*Ver siempre los Formatos soportado: mp3 - ogg - wab - etc
+
+*Ver los atributos siempre de uso
+
+--------------------------------------------------------------------
+
+Para reproducir su video en una página web, haga lo siguiente:
+
+Sube el vídeo a YouTube
+Tome nota de la identificación (ID) del video
+Define un <iframe> elemento en tu página web
+Deje que el srcatributo apunte a la URL del video
+Usa los atributos alto y ancho para especificar la dimensión del video.
+Agregue cualquier otro parámetro a la URL (ver más abajo)
+	
+===========================================================================
+
+<!--
+	Comentarios, para encapsular bloques que no aparezca dicha informacion en la pagina
+	renderizada, pero si en el código.
+-->
+
+

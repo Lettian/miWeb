@@ -1,0 +1,10 @@
+En este módulo aprenderás cómo funciona el modelo cliente-servidor,
+ que es básicamente lo que mantiene operable la web. 
+
+Entenderás cómo publicar el proyecto, qué debés tener en cuenta,
+ como también qué elecciones tomar al momento de optar por 
+ el proveedor de hosting y dónde comprar los dominios.
+
+Por último, aprenderás cómo utilizar GIT, 
+ la herramienta de versionado de código fuente más popular del mercado.
+

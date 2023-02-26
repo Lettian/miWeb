@@ -1,0 +1,37 @@
+Versionado del código fuente.
+
+Versionar es tener las diferentes versiones, de las diferentes ediciones de un  código.
+
+========================================
+
+GIT
+
+Es un SW de control de versiones, pensando en la eficiencia,
+ confiabilidad y compatibilidad del mantenimiento de versiones
+ de aplicaciones cuando éstas tienen un gran número de archivos 
+ de código fuente.
+-
+Su próposito es llevar registro de los cambios en archivos de
+ computadora incluyendo coordinar el trabajo que 
+ varias personas realizan sobre archivos de computadora
+ incluyendo coordinar el trabajo que varias
+ personas realizan sobre archivos compartidos en un repositorio
+ de código.
+-
+
+git --version dentro del VSC para corroborar que está bien instalado.
+
+========================================
+
+Nos permitirá ver un historial de cambios en nuestro proyecto.
+Quién y cuando lo realizó.
+
+Ese comando es * git init *
+
+git commit -m "Primer escritura"
+
+Comando // mensaje // "Escribo algo descriptivo"
+
+========================================
+
+Pasamos de indice a 

@@ -1,0 +1,76 @@
+Hasta ahora trabajamos localmente: HTML - CSS
+
+La direccion que nos lleva y un puerto es lo que aparece en la barra de direcciones.
+
+Existe el modelo cliente-servidor.
+
+A través de un navegador escribimos algo, google lo procesa y nos da una respuesta.
+
+============================================
+
+Para que un sitio web quede publicado se debe entender el modelo
+Cliente - Servidor para lograr la persistencia.
+
+Internet ( red de redes )
+
+Los servidores poseen direcciones IP
+
+(Protocolo IP 4 ) Ejemplo: 8.8.8.8
+
+Se habla del protocolo IPv6 a futuro: 
+	1050:0000:0000:0000:000:0005:0600:300c:326b
+
+============================================
+
+Proyecto Final, subir a github un cv para que quede a disposición de todos.
+
+============================================
+
+HOSTING:
+	"La cochera del auto"
+"Alquilar temporarlmente para almacenar el auto"
+
+Contratar un servicio de Hosting es eso, pagar un espacio en determinado servidor.
+
+
+Landing page: un cv, una única página, no requerimos pagar un hosting premium.
+
+hostinger - donweb - 
+
+Al cliente explicar la contratación del hosting.
+
+
+============================================
+
+DOMINIOS:
+
+Compra de dominios.
+
+Existen en el mercado diferentes portales para comprar un dominio.
+
+Dependiente de la extension del mismo (.com.ar) por ej, deberemos
+ buscar cual es la entidad que los comercializa.
+En Argentina, es nic.ar quien permite registrar los mismos.
+
+============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

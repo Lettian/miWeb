@@ -1,0 +1,33 @@
+Visual Code Studio (Edito de texto)
+==================================================
+Crear un archivo html.
+"nombre_archivo".html
+
+html=5 crea por defecto la estructura del archivo
+
+==================================================
+<h1 ---- h6> Titulos
+<p> elemento de parrafo
+<p>Billie tiene los ojos de color <span style="color: brown;">marron</span> :)</p>
+
+<ul> (Lista)
+|	<li>Item 1</li> (°Item 1)
+|	<li>Item 1</li> (°Item 2)
+<ul>(Fin lista)
+
+
+
+<img src="nombre imagen.jpg" alt= "nombre alternativo">
+
+==================================================
+label (Etiquetas de las variables)
+<label>Nombre</label>
+
+input (Entrada)
+<input type="text" / "number" / "date"
+		name="Nombre" (Se guarda los datos en esta variable)>
+				placeholder="Nombre" (Recuadro para ingresar el dato)
+
+<input type="text" required="required" ....... (requerido para avanzar)
+==================================================
+

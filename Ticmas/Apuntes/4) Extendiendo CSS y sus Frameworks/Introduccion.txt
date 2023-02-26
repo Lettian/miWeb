@@ -1,0 +1,4 @@
+En este módulo trabajarás con los conceptos clave del responsive web design. Aprenderás cómo transformar tu página web, originalmente solo para desktop, en full-responsive; es decir, que se adapte a cualquier dispositivo y que se siga visualizando correctamente. 
+
+A continuación, avanzarás con los frameworks más populares del mercado, de manera tal que, habiendo entendido los conceptos más importantes, puedas utilizarlos para avanzar rápidamente en el desarrollo full-responsive.
+

@@ -1,0 +1,109 @@
+Introduccion a CSS
+
+Capa de presentación - Conceptos básicos 
+
+Responsable de darle estilo a nuestra página web.
+Permite que se vea una página como lo queremos y no como lo renderiza html.
+
+CSS: Es un lenguaje de "hojas de estilo" , que permite aplicar distintos estilos de manera
+	selectiva a elementos en documentos HTML.
+
+>>>>>>>> 
+Sintaxis
+
+Selector	declaracion	declaracion
+h1		{color:blue; 	font-size:12px;}
+
+propiedad->color	||	Propiedad-> font
+valor-> blue		||	valor-> 12px
+
+Osea "Clave y valor"
+<<<<<<<<<<<
+
+-----------------------------------------------------------------
+
+Nuevos elementos ( Hay 3 formas de trabajar CSS) 
+
+===========================================
+
+Primera forma, trabajar CSS Dentro del HTML, y se hace dentro del elemento *HEAD*
+
+Elemento STYLE
+
+<style>
+p{
+            color:red;
+        }
+</style>
+
+"Todos los elementos P deben ser de color rojo".
+
+=====================================================
+
+COLOR en CSS
+
+3 notaciones para color: 
+	*HEXA: Valor hexadecimal como "#ff0000"
+	*RGB: Vakir eb ka escaka de rgbm cini "rgb"255,0,0)"
+	*NOMBRE: El nombre del color en inglés, como "red"
+
+body {
+	color: blue;
+}
+
+h1{
+	color: green;
+}
+==========================
+Trabajar de manera mas organizada:
+
+Crear un directorio para meter todos los archivos en él (hojas de estilos)
+
+CSS no es un lenguaje de marcado, sino un documento que referencia
+ a las etiquetas de HTML.
+
+==========================
+
+Primera forma de trabajar CSS
+
+1) Estilos inline
+
+Las hojas de CSS la idea es poder re utilizar las hojas.
+Usar una para poder aplicar a varias hojas.
+
+Al crear un nuevo documento html, no se pueden re utilizar las hojas de CSS
+en el nuevo documento.
+
+==========================
+
+2) Usar CSS como plantillas e incluirlas dentro del HTML
+
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+body{
+	background-color: linen;
+}
+
+h1 {
+	color: maroon;
+	margin-left: 40px:
+}
+
+==============================
+
+3) 3ra practica no aconsejable
+
+>inline styles<
+
+Queda atado al documento , desprolijo x haber propiedades de css dentro del html.
+
+==============================
+
+Usar la opción 2 siempre, para re utilizar código.
+
+/**
+    Esto es un comentario dentron de un documento de CSS
+*/
+

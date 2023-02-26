@@ -1,0 +1,62 @@
+Responsive Web Desing
+Media queries
+Frameworks CSS
+
+=========================
+
+Trabajaremos desde html & css para realizar un sitio responsivo.
+
+*Media queries*
+Es una regla css que incluye propiedades si una condicion es verdadero.
+
+Utiliza la @mediaregla para incluir un bloque de propiedades CSS solo si se cumple una determinada condición.
+
+No distingue mayusculas ni minisculas.
+
+
+EJEMPLO:
+Si la ventana del navegador tiene 600 px o menos, 
+el color de fondo será azul claro:
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+=========================
+
+Para cada pantalla hay que definir las clases que deseamos aplicar
+
+Un proyecto full responsive es que se adapte a todo dispositivo.
+ Empezando desde mobile y crecer, ejemplo a tablet, luego desktop, smart tv , etc.
+
+Esto lleva tiempo, por lo cual, se debe cotizar bien el trabajo.
+Y consultar, si los media queries tienen que ser personales, o se puede importar una libreria.
+
+*Librerias full responsive*
+
+===========================================================================
+
+El beneficio de estas librerias permite obtener una determinada clases dadas para trabajar.
+
+Estos contienen los media queries, osea hasta donde corta y cambian las condiciones/reglas.
+
+
+Estos media queries en .css se llaman breakpoint, elementos de corte //
+
+Media queries:
+
+	Smartphone: @media screen and (max-width: 767px){
+			....
+			}
+
+	Tablet @media screen and (max-width: 768px) and (max-width: 1023px){
+			....
+			}
+
+	Desktop @media screen and (max-width: 1024px){
+			....
+			}
+
+===========================================================================
+

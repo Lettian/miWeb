@@ -1,0 +1,47 @@
+Código HTML
+- Se escribe todo el contenido de la pagina web, pero nada que tenga reliacion con el dieño y los estilos visuales.
+-Se incluyen textos, links, llamados a imagenes y videos y las etiquetas que estructuran el contenido de la pagina web,
+===============================================================================================================
+Nombre de archivos
+- Nombre de archivo de la pagina de inicio de todo sitio web: "index.html"
+	*Esto no significa que sea el unico. Los archivos pueden tener cualquier nombre, pero los servidores van a reconocer
+		*al que se llame "index.html" como la pagina de inicio.
+		*index: Inicio, pagina principal de un sitio web.
+===============================================================================================================
+Estructura documento html :
+- Elemento "html"
+- Elemento "head"
+- Elemento "body"
+- Elemento "p"	: Elemento parrafo
+===============================================================================================================
+- Lo que se encapsule entre el elemento body, es lo que aparecerá en el navegador.
+- Lo que encapsulemos dentro del elemento "title" es el nombre de la pestaña
+===============================================================================================================
+- Respetar identado (espacios) entre elementods
+===============================================================================================================
+CSS
+-Se escriben las definiciones esteticas en la hoja de estilos CSS.
+===============================================================================================================
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Estructura del HTML
+
+- Elemento "title"
+	Titulo de nuestra ventana 
+- Elemento body
+	Lo que se mostrará en la pagina web
+
+OTRAS ESTRUCTURAS:
+	Elemento "h1"   Viene de heading: 	"titular"
+	Elemento "p   "  Viene de parragraph: 	"Parrafo"
+===============================================================================================================
+Elemendo h (heading) los ordena por orden de jerarquia.
+	Y por defecto usa un tipo distinto de tipografia pero por no usar la hoja de estilos CSS
+
+
+
+
+
+

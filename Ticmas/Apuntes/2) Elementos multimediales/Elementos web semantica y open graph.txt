@@ -1,0 +1,86 @@
+Hasta ahora:
+	tag video / inframe // audio // h1-h6 // elemento p // elemengo img // span
+
+Nombre de archivos:
+	Que puede incluir?
+		Letras minusculas
+		numeros
+		guion medio y guion bajo
+
+	Que no debe incluir?
+		Espacios
+		Letras mayusculas
+		tildes, enies y otros diacriticos
+		Otros simbolos
+
+Contenedor <div>
+<div style="background-color: lightblue;"> // <-- No es buena practica en html; el diseño va en CSS)
+	<h3>Subtitulo dentro de una division</h3>
+	<p>Parrafo dentro de una division</p>
+</div>
+
+El titulo mas importante de la pagina es h1
+Sólo puede haber 1, puede haber 2 o 3 h2, pero sólo 1 titulo.
+
+Realizar la anatomia de lo que se quiere construir
+
+----------------------
+|    <header>|       |
+|--------------------|
+|       <nav>	     |
+|--------------------|
+|<section> |	     |
+|----------| <aside> |
+| <article>| 	     |
+|--------------------|
+| <footer>	     |
+|--------------------|
+
+Un mapa de lo que se quiere maquetar, es una idea.
+Y de ahi, usar los elementos que se necesitan.
+
+Identificar como armar los bloques para que la pagina
+ se vea y renderiza como espera el diseñador web.
+
+
+Web Semantica:
+(Elementos simánticos)
+	Al programar, se hace tanto para el cliente, como para el robot de google.
+
+¿Qué son los elementos semánticos?
+
+Un elemento semántico describe claramente su significado tanto para el navegador como para el desarrollador.
+
+Ejemplos de elementos no semánticos : <div>y <span>- No dice nada sobre su contenido.
+
+Ejemplos de elementos semánticos : <form>, <table>y <article>- Define claramente su contenido.
+
+=========================================
+
+Header - Barra de navegacion - Pie de pagina:
+
+	Antes uno usaba un div sobre otro.
+	Al evolucionar se empezó a usar un formato.
+
+header - nav - footer
+
+
+============================================================
+
+HTML Favicon
+
+Fav icon (Imagen pequeña vista en solapa del navegador).
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+No aporta valor semantico, pero si es mas profesional.
+
+=====================================================================
+
+Adelantamos algo.
+
+OG Protocol html (Open graph)
+
+La idea al hacer un html, sea que tenga mucho grafico o no, intentar q ue sea lo mas
+profesional posible.
+

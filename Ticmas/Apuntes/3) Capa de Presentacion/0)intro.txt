@@ -1,0 +1,3 @@
+En este módulo aprenderás cómo aplicar estilos a tus documentos HTML, de manera tal que puedas diseñar tus páginas con colores, tipografías y espaciados, según lo requieras.
+La capa de presentación, aplicada a través de CSS, te permitirá customizar tus documentos y hacer diseños a medida. Verás las distintas formas de aplicar CSS, buenas prácticas, box model y conceptos clave para que puedas seguir adelante.
+

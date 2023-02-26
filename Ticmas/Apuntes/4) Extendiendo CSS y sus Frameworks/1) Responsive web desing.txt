@@ -1,0 +1,111 @@
+Permite a cualquier usuario, ingresar desde una computadora, 
+desde un celular, etc, se vea correctamente una página web.
+
+===========================================================================================
+
+Elementos:
+viewport: Define el area visible de una pagina web
+
+meta viewport:
+	Es una de las etiquetas mas representativas de la web movil, que nos
+	 permite configurar como debe interpretar una pagina el navegador web para cmoviles.
+ej:
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+Este elemento en html5 nos permite definir el ancho de pantalla que
+ tomaremos y la escala a definir.
+
+============================================================================================
+
+NUNCA HACER UN SITIO **RESPONSIVO** DONDE EL USUARIO
+DEBA SCROLLEAR HACIA LOS COSTADOS, SÓLO HACIA ARRIBA O ABAJO.
+
+SE TRABAJA DE LA SIGUIENTE MANERA:
+
+SE TOMA LA PANTALLA COMPLETA Y SE LA PARTICIONA EN COLUMNAS
+DE IGUAL TAMAÑO (GRILLAS).
+
+FUNCIONA CONCEPTUALMENTE PARA QUE UN DETERMINADO ELEMENTO,
+ AL TRABAJAR EN DESKTOP, QUE OCUPE EJEMPLO: 5 COLUMNAS
+ AL TRABAJAR EN MOBILE, QUE OCUPE EJEMPLO: 3 COLUMNAS.
+POR LO GENERAL, TIENE UN ANCHO DE 100% Y HASTA 12 COLUMNAS.
+
+============================================================================================
+
+CONSTRUIR UNA GRILLA RESPONSIVA
+
+DEFINIR MEDIANTE CSS, CUANTO ABARQUE CADA COLUMNA.
+
+Esto asegura que el relleno y el borde estén incluidos en el ancho y alto total de los elementos.
+
+Agregue el siguiente código en su CSS:
+
+DEFINIR LA PROPIEDAD:
+	*{
+	  box-sizing: border-box;
+	}
+
+
+El siguiente ejemplo muestra una página web receptiva simple, con dos columnas:
+
+25 % y 75% respectivamente:
+
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
+
+El ejemplo anterior está bien si la página web solo contiene dos columnas.
+
+Sin embargo, queremos usar una vista de cuadrícula receptiva con 12 columnas para tener más control sobre la página web.
+
+Primero debemos calcular el porcentaje para una columna: 100% / 12 columnas = 8,33%.
+
+Luego creamos una clase para cada una de las 12 columnas class="col-"y un número que define cuántas columnas debe abarcar la sección:
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ Todas estas columnas deben estar flotando a la izquierda y tener un relleno de 15px:
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+======================================================================================
+
+Media queries:
+
+ Las medias queries ( En español" consultas de medios")
+son utiles cuando deseas modificar tu pagina web o aplicacion
+ en funcion del tipo de dispositivo ( como una impresora
+o una pantalla) o de caracteristicas y parametros especificos
+(como la resolucion de la pantalla o ancho del *viewport* del navegador).
+
+
+>> Nos permite aplicar estilo segun el tamaño de pantalla que venga >>
+
+
+
+
+
+
+

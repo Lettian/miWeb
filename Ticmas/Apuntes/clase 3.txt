@@ -1,0 +1,118 @@
+Elementos HTML
+
+Elementos de bloque - Elementos de linea
+
+Gran diferencia entre ellos.
+============================================================================================
+-Elemento de bloque es aquel que ocupa toda la fila que tiene disponible
+	toman el espacio disponible de la pantalla si no se altera su comportamiento con CSS.
+
+Se trabaja con HTML con la capa de estructura de nuestro documento y dandole el contexto que necesita.
+
+Cuando éste definido nuestra pagina con CSS se le dará el espaciado necesario a nivel diseño.
+
+============================================================================================
+-Elementos de linea, no empiezan con una nueva linea.
+	<span>Hola mundo</span>
+============================================================================================
+-Elemento Form	<form>
+
+Un elemento que permite interactuar o que un usuario nos mande informacion de lo que sea.
+	-Acceso a un homebanking - una encuentas - etc
+
+Nace el concepto de elementos anidados:
+	Posee dentro otros elementos.
+
+Posee atributos opcionales como:
+	*action: URL hacia donde se enviara la respuesta al formulario
+	*method: metodo HTTP que se usará al enviar el formulario
+	*name: nombre del formulario.
+
+============================================================================================
+Elemento <label> (Etiqueta)
+
+Posee Atributos opcionales como:
+	*for: el id del input al que acompaña la etiqueta.
+	Ejemplo: for="nombre"
+============================================================================================
+Para poder crear un formulario usamos el elemento "<form>"
+Usamos el elemento "<label>" para crear "etiquetas" y les pondremos nombre
+	para poder completar los tags de la misma.
+
+<form>
+|	<label>Nombre</label>
+|	<input type="text" placeholder="Ingrese su apellido">		
+|		
+|	// <------------- input(entrada) tipo "text"
+|				
+</form>
+
+// Hay varios tipos de dato en un formulario.
+Hidden datos ocultos.
+datetime
+file
+email
+password
+text
+number
+url
+etc,
+
+NO MEMORIZAR, QUE LA CONSOLA LOS AYUDE.
+
+============================================================================================
+
+*Al armar un formulario, sumarle el atributo "action" que define a que pagina
+	va a enviar los datos del formulario.
+
+*sumarle el atributo "method" que es el metodo que se usará para enviar la
+	informacion al servidor.
+
+El method="post" es el mas utilizado y no lo muestra en la url
+
+El method="get" para obtener datos y se guardan en la misma pagina,
+	para trabajar con contraseñas NO SIRVE.
+
+
+*El frontend deja los campos vacios, ya que el backend es el que lo completará
+	según lo que necesite
+
+<form action="" method="post">
+    <label>Nombre</label>
+    <input type="text" name="nombre" placeholder="Ingrese su nombre"/>
+    
+    <label>Apellido</label>
+    <input type="text" name="apellido" placeholder="Ingrese su apellido">
+
+    <label>E-mail</label>
+    <input type="text" name="email" placeholder="Ingrese su e-mail">
+
+    <label>Password</label>
+    <input type="password" name="password" />
+	
+    <input type="submit" value="Enviar">
+
+   </form>
+
+Darle nombres a las variables para guardar los datos ingresados.
+El tipo submit, de submitear, boton para procesar un formulario.
+(valor) Value="Enviar" se le da como etiqueta el nombre enviar a dicho boton
+
+============================================================================================
+
+Validacion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

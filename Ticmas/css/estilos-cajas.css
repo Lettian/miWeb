@@ -1,0 +1,70 @@
+*{
+    color: magenta;
+}
+
+body{
+    background-color: yellow;
+};
+
+p, span{
+    font-style: italic;
+    color:rgba(21, 185, 62, 0.884);
+    width: 300px; 
+    
+    margin-bottom: 50px;
+}
+
+ul{
+    font-style:italic;
+    color:blue;
+    margin-left: 30px;
+    
+}
+
+
+h1{
+    background-color: lightcoral;
+
+    font-family: 'Pacifico', cursive;
+    border: 10px groove  blueviolet;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    
+    margin-top: -40px;
+    margin-left: 10px;
+    margin-right: 10PX;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+
+    color: green
+
+}
+
+section {
+    width: 300px;
+    border: 15px solid red;
+    padding: 50px;
+    margin: 20px 20px 20px 100px;
+  }
+
+  #mi_parrafo{
+    color: black;
+    background-color: burlywood;
+    font-size: 23px; /* tamanio*/
+    border: 1px solid lightblue;
+  }
+
+  .estaEsMiClase{
+
+    font-weight: bold;
+    color: maroon;
+    
+  }
+
+  section h2{
+    font-weight: 200px;
+    color: orange;
+  }
